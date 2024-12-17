@@ -14,7 +14,7 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 rpm-ostree install kitty bspwm sxhkd picom rofi
-rpm-ostree remove ptyxis
+rpm-ostree uninstall ptyxis
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
